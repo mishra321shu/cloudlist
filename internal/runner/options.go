@@ -9,7 +9,7 @@ import (
 	"os/user"
 	"path"
 
-	"github.com/projectdiscovery/cloudlist/pkg/schema"
+	"github.com/mishra321shu/cloudlist/pkg/schema"
 	"github.com/projectdiscovery/gologger"
 	"gopkg.in/yaml.v2"
 )

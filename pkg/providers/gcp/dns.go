@@ -4,7 +4,7 @@ import (
 	"context"
 	"log"
 
-	"github.com/projectdiscovery/cloudlist/pkg/schema"
+	"github.com/mishra321shu/cloudlist/pkg/schema"
 	"google.golang.org/api/dns/v1"
 )
 

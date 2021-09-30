@@ -8,7 +8,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/ec2"
 	"github.com/pkg/errors"
-	"github.com/projectdiscovery/cloudlist/pkg/schema"
+	"github.com/mishra321shu/cloudlist/pkg/schema"
 )
 
 // awsInstanceProvider is an instance provider for aws API

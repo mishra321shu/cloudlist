@@ -6,9 +6,9 @@
 
 <p align="center">
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-_red.svg"></a>
-<a href="https://github.com/projectdiscovery/cloudlist/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
-<a href="https://goreportcard.com/badge/github.com/projectdiscovery/cloudlist"><img src="https://goreportcard.com/badge/github.com/projectdiscovery/cloudlist"></a>
-<a href="https://github.com/projectdiscovery/cloudlist/releases"><img src="https://img.shields.io/github/release/projectdiscovery/cloudlist"></a>
+<a href="https://github.com/mishra321shu/cloudlist/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
+<a href="https://goreportcard.com/badge/github.com/mishra321shu/cloudlist"><img src="https://goreportcard.com/badge/github.com/mishra321shu/cloudlist"></a>
+<a href="https://github.com/mishra321shu/cloudlist/releases"><img src="https://img.shields.io/github/release/projectdiscovery/cloudlist"></a>
 <a href="https://twitter.com/pdiscoveryio"><img src="https://img.shields.io/twitter/follow/pdiscoveryio.svg?logo=twitter"></a>
 <a href="https://discord.gg/projectdiscovery"><img src="https://img.shields.io/discord/695645237418131507.svg?logo=discord"></a>
 </p>
@@ -64,10 +64,10 @@ This will display help for the tool. Here are all the switches it supports.
 # Installation Instructions
 
 
-Download the ready to use binary from [release page](https://github.com/projectdiscovery/cloudlist/releases/) or install/build using Go
+Download the ready to use binary from [release page](https://github.com/mishra321shu/cloudlist/releases/) or install/build using Go
 
 ```sh
-GO111MODULE=on go get -v github.com/projectdiscovery/cloudlist/cmd/cloudlist
+GO111MODULE=on go get -v github.com/mishra321shu/cloudlist/cmd/cloudlist
 ```
 
 
@@ -164,7 +164,7 @@ Scanning assets from various cloud providers with nuclei for security assessment
 
 # Contribution
 
-Please check [PROVIDERS.md](https://github.com/projectdiscovery/cloudlist/blob/main/PROVIDERS.md) and [DESIGN.md](https://github.com/projectdiscovery/cloudlist/blob/main/DESIGN.md) to include support for new cloud providers in Cloudlist.
+Please check [PROVIDERS.md](https://github.com/mishra321shu/cloudlist/blob/main/PROVIDERS.md) and [DESIGN.md](https://github.com/mishra321shu/cloudlist/blob/main/DESIGN.md) to include support for new cloud providers in Cloudlist.
 
 
 - Fork this project
@@ -189,8 +189,8 @@ import (
   "context"
   "log"
 
-  "github.com/projectdiscovery/cloudlist/pkg/inventory"
-  "github.com/projectdiscovery/cloudlist/pkg/schema"
+  "github.com/mishra321shu/cloudlist/pkg/inventory"
+  "github.com/mishra321shu/cloudlist/pkg/schema"
 )
 
 func main() {

@@ -8,8 +8,8 @@ import (
 	"strings"
 
 	jsoniter "github.com/json-iterator/go"
-	"github.com/projectdiscovery/cloudlist/pkg/inventory"
-	"github.com/projectdiscovery/cloudlist/pkg/schema"
+	"github.com/mishra321shu/cloudlist/pkg/inventory"
+	"github.com/mishra321shu/cloudlist/pkg/schema"
 	"github.com/projectdiscovery/gologger"
 )
 

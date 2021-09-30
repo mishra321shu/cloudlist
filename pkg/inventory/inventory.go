@@ -3,11 +3,11 @@ package inventory
 import (
 	"fmt"
 
-	"github.com/projectdiscovery/cloudlist/pkg/providers/aws"
-	"github.com/projectdiscovery/cloudlist/pkg/providers/digitalocean"
-	"github.com/projectdiscovery/cloudlist/pkg/providers/gcp"
-	"github.com/projectdiscovery/cloudlist/pkg/providers/scaleway"
-	"github.com/projectdiscovery/cloudlist/pkg/schema"
+	"github.com/mishra321shu/cloudlist/pkg/providers/aws"
+	"github.com/mishra321shu/cloudlist/pkg/providers/digitalocean"
+	"github.com/mishra321shu/cloudlist/pkg/providers/gcp"
+	"github.com/mishra321shu/cloudlist/pkg/providers/scaleway"
+	"github.com/mishra321shu/cloudlist/pkg/schema"
 	"github.com/projectdiscovery/gologger"
 )
 

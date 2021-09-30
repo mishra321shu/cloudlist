@@ -1,4 +1,4 @@
-module github.com/projectdiscovery/cloudlist
+module github.com/mishra321shu/cloudlist
 
 go 1.14
 

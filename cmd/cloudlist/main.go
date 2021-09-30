@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/projectdiscovery/cloudlist/internal/runner"
+	"github.com/mishra321shu/cloudlist/internal/runner"
 	"github.com/projectdiscovery/gologger"
 )
 

@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/pkg/errors"
-	"github.com/projectdiscovery/cloudlist/pkg/schema"
+	"github.com/mishra321shu/cloudlist/pkg/schema"
 	"google.golang.org/api/cloudresourcemanager/v1"
 	"google.golang.org/api/dns/v1"
 	"google.golang.org/api/option"

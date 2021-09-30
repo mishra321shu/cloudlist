@@ -4,7 +4,7 @@ Cloudlist is an Asset Discovery tool designed to gather information from multipl
 
 It is designed in such a way that adding providers is a breeze. There a few main types of the design that we need to describe first.
 
-https://github.com/projectdiscovery/cloudlist/tree/main/pkg -
+https://github.com/mishra321shu/cloudlist/tree/main/pkg -
 
 ### Providers
 Each Provider implements the below described `schema.Provider` interface. The core logic of the provider is contained in `Resources()` function, which returns a list of resources that the provider currently has.
@@ -43,7 +43,7 @@ func (o OptionBlock) GetMetadata(key string) (string, bool) {
 }
 ```
 
-The `nameToProvider` function is reponsible for handling creation and initialization of the providers at https://github.com/projectdiscovery/cloudlist/blob/main/pkg/inventory/inventory.go#L40. Just add a case for your new provider and return it by calling `<provider>.New(block)`. 
+The `nameToProvider` function is reponsible for handling creation and initialization of the providers at https://github.com/mishra321shu/cloudlist/blob/main/pkg/inventory/inventory.go#L40. Just add a case for your new provider and return it by calling `<provider>.New(block)`. 
 
 ```go
 switch value {
@@ -93,10 +93,10 @@ Steps -
 1. Add the code for the provider in pkg/providers.
 2. Add the provider to nameToProvider function as a case with intiialization function for the provider.
 3. Test the provider integration.
-4. Add documentation on how to use the integration (configuration it accepts, steps to generate) to https://github.com/projectdiscovery/cloudlist/blob/main/PROVIDERS.md - Connect to preview .
+4. Add documentation on how to use the integration (configuration it accepts, steps to generate) to https://github.com/mishra321shu/cloudlist/blob/main/PROVIDERS.md - Connect to preview .
 
 References - 
 
-1. https://github.com/projectdiscovery/cloudlist/tree/main/pkg/providers/aws - AWS Route53 And EC2 provider. Sub-structures are used for both resource types which are called by a Main resources() function. 
-2. https://github.com/projectdiscovery/cloudlist/tree/main/pkg/providers/digitalocean - Digitalocean Instances integration. Probably the simplest one.
-3. https://github.com/projectdiscovery/cloudlist/tree/main/pkg/providers/gcp - Google Cloud DNS integration. Demonstrates a complex JSON config in use.
+1. https://github.com/mishra321shu/cloudlist/tree/main/pkg/providers/aws - AWS Route53 And EC2 provider. Sub-structures are used for both resource types which are called by a Main resources() function. 
+2. https://github.com/mishra321shu/cloudlist/tree/main/pkg/providers/digitalocean - Digitalocean Instances integration. Probably the simplest one.
+3. https://github.com/mishra321shu/cloudlist/tree/main/pkg/providers/gcp - Google Cloud DNS integration. Demonstrates a complex JSON config in use.
